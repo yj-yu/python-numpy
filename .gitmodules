@@ -1,0 +1,9 @@
+[submodule "code/cs228-materials"]
+	path = code/cs228-materials
+    url = https://github.com/kuleshov/cs228-material.git
+[submodule "code/numpy-tutorial"]
+	path = code/numpy-tutorial
+    url = https://github.com/rougier/numpy-tutorial.git
+[submodule "code/scipy-2016-sklearn"]
+	path = code/scipy-2016-sklearn
+	url = https://github.com/amueller/scipy-2016-sklearn.git
