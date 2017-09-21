@@ -72,7 +72,7 @@ Pycon KR에 참가도 해보세요
 
 template: inverse
 
-# Python Numpy tutorial
+# Python basic & Numpy & Scipy tutorial
 
 
 ---
@@ -85,6 +85,12 @@ template: inverse
 NumPy와 SciPy는 
 - 파이썬의 수학적인 함수와 능력을 확장해주고 
 - 작업들을 엄청나게 가속시켜 줍니다
+
+실습 전에
+```bash
+pip install scipy
+pip install matplotlib
+```
 
 ---
 
