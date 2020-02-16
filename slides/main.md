@@ -33,11 +33,11 @@ template: inverse
 
 ## Numpy & Scipy
 대표적인 수식 라이브러리, 서로 친합니다.
-- 보통 SciPy가 NumPy에 의존합니다. 
+- 보통 SciPy가 NumPy에 의존합니다.
 - 수학적이거나 과학적인 연구를 위한 진지한 계산 처리를 한다면 이 두 라이브러리로 충분
 
-NumPy와 SciPy는 
-- 파이썬의 수학적인 함수와 능력을 확장해주고 
+NumPy와 SciPy는
+- 파이썬의 수학적인 함수와 능력을 확장해주고
 - 작업들을 엄청나게 가속시켜 줍니다
 
 실습 전에
@@ -74,15 +74,15 @@ code(https://github.com/yj-yu/python-numpy)
 ---
 ## 만약 git clone이 오래걸릴 경우
 
-numpy-tutorial과 scipy는 자료가 많습니다. 
+numpy-tutorial과 scipy는 자료가 많습니다.
 따라서 오래 걸리시는분의 경우, 홈페이지는 --recursive로 받지 않으셔도 됩니다.
 
 ```bash
 git clone https://github.com/yj-yu/python-numpy.git
 # 필요한 자료만
 git clone https://github.com/rougier/numpy-tutorial.git
-git clone https://github.com/kuleshov/cs228-material.git 
-git clone https://github.com/amueller/scipy-2016-sklearn.git 
+git clone https://github.com/kuleshov/cs228-material.git
+git clone https://github.com/amueller/scipy-2016-sklearn.git
 ```
 
 선별적으로 받아주세요
@@ -101,15 +101,15 @@ Let's start!
 Adapted by Volodymyr Kuleshov and Isaac Caswell from the CS231n Python tutorial by Justin Johnson (http://cs231n.github.io/python-numpy-tutorial/).
 
 ### Introduction
-Python is a great general-purpose programming language on its own, 
-but with the help of a few popular libraries (numpy, scipy, matplotlib) 
+Python is a great general-purpose programming language on its own,
+but with the help of a few popular libraries (numpy, scipy, matplotlib)
 it becomes a powerful environment for scientific computing.
 
 ---
 ## Python Tutorial
 
 In this tutorial, we will cover:
-Basic Python: Basic data types 
+Basic Python: Basic data types
 - Containers, Lists, Dictionaries, Sets, Tuples, Functions, Classes
 - Numpy: Arrays, Array indexing, Datatypes, Array math, Broadcasting
 - Matplotlib: Plotting, Subplots, Images
@@ -119,7 +119,7 @@ Basic Python: Basic data types
 ---
 ## Python (review)
 
-Python is a high-level, dynamically typed 
+Python is a high-level, dynamically typed
 
 ```python
 def quicksort(arr):
@@ -176,7 +176,7 @@ print(t != f)  # Logical XOR; prints "True"
 ---
 ## Basic Data Types
 
-### Strings 
+### Strings
 Python has great support for strings:
 
 ```python
@@ -193,7 +193,7 @@ print(hw12)  # prints "hello world 12"
 ---
 ## Basic Data Types
 
-### Strings 
+### Strings
 
 String objects have a bunch of useful methods; for example:
 
@@ -270,7 +270,7 @@ for idx, animal in enumerate(animals):
 
 ### Loops
 
-When programming, frequently we want to transform one type of data into another. 
+When programming, frequently we want to transform one type of data into another.
 As a simple example, consider the following code that computes square numbers:
 ```python
 nums = [0, 1, 2, 3, 4]
@@ -351,7 +351,7 @@ print(even_num_to_square)  # Prints "{0: 0, 2: 4, 4: 16}"
 ## Containers
 
 ### Sets
-A set is an unordered collection of distinct elements. 
+A set is an unordered collection of distinct elements.
 As a simple example, consider the following:
 ```python
 animals = {'cat', 'dog'}
@@ -381,7 +381,7 @@ for idx, animal in enumerate(animals):
 ```
 
 ---
-## Containers 
+## Containers
 ### Set comprehensions
 Like lists and dictionaries, we can easily construct sets using set comprehensions:
 ```python
@@ -552,7 +552,7 @@ print(x.dtype)                         # Prints "int64"
 
 ---
 ## Numpy : Array math
-Basic mathematical functions operate elementwise on arrays, 
+Basic mathematical functions operate elementwise on arrays,
 and are available both as operator overloads and as functions in the numpy module:
 
 ```python
@@ -725,12 +725,12 @@ print(y)  # Prints "[[ 2  2  4]
 ---
 ## Numpy : Broadcasting
 
-Play another tutorial blocks 
+Play another tutorial blocks
 
 ---
 ## Scipy
-SciPy builds on Numpy, 
-provides a large number of functions that operate on numpy arrays 
+SciPy builds on Numpy,
+provides a large number of functions that operate on numpy arrays
 useful for different types of scientific and engineering applications.
 
 ### You can practice scipy with scipy-2016-sklearn
@@ -738,8 +738,8 @@ useful for different types of scientific and engineering applications.
 ---
 ## Scipy : Image operation
 
-it has functions to read images from disk into numpy arrays, 
-to write numpy arrays to disk as images, and to resize images. 
+it has functions to read images from disk into numpy arrays,
+to write numpy arrays to disk as images, and to resize images.
 
 ```python
 from scipy.misc import imread, imsave, imresize
@@ -761,7 +761,7 @@ imsave('assets/cat_tinted.jpg', img_tinted)
 
 name: last-page
 class: center, middle, no-number
-## Thank You! See you next week!
+## Thank You!
 
 
 <div style="position:absolute; left:0; bottom:20px; padding: 25px;">
